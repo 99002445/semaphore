@@ -30,7 +30,7 @@ void* thread(void* arg)
 	//wait 
 	sem_wait(&mutex); 
 /*********************************************************************/
-	printf("penalty shot %d : ",j); 
+	printf("car exit %d : ",j); 
 	++j;
 	fgets(message.mesg_text,100,stdin); 
 
