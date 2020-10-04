@@ -34,7 +34,7 @@ void* thread(void* arg)
 	msgrcv(msgid, &message, sizeof(message), 1, 0); 
 
 	// display the message 
-	printf("penalty shot %d: %s \n",j,message.mesg_text); 
+	printf("Car entry %d: %s \n",j,message.mesg_text); 
 	++j;
 	
 /**********************************************************************/
